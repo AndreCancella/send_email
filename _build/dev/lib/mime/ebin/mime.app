@@ -1,0 +1,9 @@
+{application,mime,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"A MIME type module for Elixir"},
+              {modules,['Elixir.MIME','Elixir.MIME.Application']},
+              {registered,[]},
+              {vsn,"1.6.0"},
+              {mod,{'Elixir.MIME.Application',[]}},
+              {env,[{types,#{}}]}]}.

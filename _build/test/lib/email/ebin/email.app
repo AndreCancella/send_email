@@ -1,0 +1,11 @@
+{application,email,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,plug,plug_cowboy,
+                             poison,bamboo,bamboo_smtp]},
+              {description,"email"},
+              {modules,['Elixir.Email','Elixir.Email.Application',
+                        'Elixir.Email.Mailer','Elixir.Email.Router',
+                        'Elixir.Email.SendEmail']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Email.Application',[]}}]}.
